@@ -57,7 +57,7 @@ python selenium_login_test.py
 
 ## Kết quả
 
-![test](https://github.com/n23dcpt037-ppnghi/LAB03/blob/main/test-report_screenshot/test_login.png?raw=true)
+![test](https://github.com/n23dcpt037-ppnghi/LAB03/blob/main/Test-report-screenshot/test_login.png?raw=true)
 
 ## Thông tin sinh viên
 Họ tên: Phan Phương Nghi
