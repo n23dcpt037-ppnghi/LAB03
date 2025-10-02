@@ -1,13 +1,12 @@
 📝 Test Tự Động - Chức năng Đăng nhập
 
 ## 📌 Giới thiệu
-Dự án này sử dụng **Selenium + Python** để kiểm thử chức năng **Đăng nhập** trong hệ thống.
+Bài tập này sử dụng **Selenium + Python** để kiểm thử chức năng **Đăng nhập** trong hệ thống.
 
 ## Cấu trúc
-- `login_test.py` : File chứa các test case
-- `requirements.txt` : Thư viện cần cài đặt
-- `fulllogin.html` : Giao diện đăng nhập để test
-- `screenshot/` : Thư mục chứa ảnh chụp màn hình kết quả test
+- `selenium_test_script.py` : File chứa các test case
+- `login.html` : Giao diện đăng nhập để test
+- `Test-report-screenshot/` : Thư mục chứa ảnh chụp màn hình kết quả test
 
 ## Danh sách Test Case
 | STT | Tên Test Case              | Mô tả kiểm thử                                      | Kết quả mong đợi |
@@ -31,7 +30,7 @@ Dự án này sử dụng **Selenium + Python** để kiểm thử chức năng 
 * Trong thư mục dự án, chạy:
 
 ```bash
-python selenium_login_test.py
+python selenium_test_script.py
 
 ```
 
