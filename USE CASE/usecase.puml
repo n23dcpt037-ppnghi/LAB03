@@ -1,0 +1,26 @@
+@startuml
+left to right direction
+actor User
+
+rectangle "Login Page" {
+  
+  usecase "Login" as UC0
+  usecase "Login success" as UC1
+  usecase "Login fail" as UC2
+  usecase "Empty fields" as UC3
+  usecase "Forgot password" as UC4
+  usecase "Register account" as UC5
+  usecase "Social login" as UC6
+  
+}
+
+User --> UC0
+User --> UC4
+User --> UC5
+User --> UC6
+
+UC0 <|-- UC1 : <<extend>>
+UC0 <|-- UC2 : <<extend>>
+UC0 <|-- UC3 : <<extend>>
+
+@enduml
